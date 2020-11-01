@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/second-project/static/css/main.c3c08123.chunk.css",
+    "main.css": "/second-project/static/css/main.13e99780.chunk.css",
     "main.js": "/second-project/static/js/main.926a0725.chunk.js",
     "main.js.map": "/second-project/static/js/main.926a0725.chunk.js.map",
     "runtime-main.js": "/second-project/static/js/runtime-main.de1dfac5.js",
@@ -10,7 +10,7 @@
     "static/js/2.cfc621ed.chunk.js.map": "/second-project/static/js/2.cfc621ed.chunk.js.map",
     "index.html": "/second-project/index.html",
     "static/css/2.679831fc.chunk.css.map": "/second-project/static/css/2.679831fc.chunk.css.map",
-    "static/css/main.c3c08123.chunk.css.map": "/second-project/static/css/main.c3c08123.chunk.css.map",
+    "static/css/main.13e99780.chunk.css.map": "/second-project/static/css/main.13e99780.chunk.css.map",
     "static/js/2.cfc621ed.chunk.js.LICENSE.txt": "/second-project/static/js/2.cfc621ed.chunk.js.LICENSE.txt",
     "static/media/App.css": "/second-project/static/media/Rubik-Regular.ba3a7f0c.eot"
   },
@@ -18,7 +18,7 @@
     "static/js/runtime-main.de1dfac5.js",
     "static/css/2.679831fc.chunk.css",
     "static/js/2.cfc621ed.chunk.js",
-    "static/css/main.c3c08123.chunk.css",
+    "static/css/main.13e99780.chunk.css",
     "static/js/main.926a0725.chunk.js"
   ]
 }
