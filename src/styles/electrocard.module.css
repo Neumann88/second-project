@@ -1,0 +1,108 @@
+.elCards {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 40px;
+}
+
+.cardsContainer {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.main {
+  display: flex;
+  width: 540px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #ebe7ff;
+  height: 183px;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+.svgContainer {
+  width: 135px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.infoContainer {
+  margin: auto;
+  width: 335px;
+}
+
+.infoContainer h1 {
+  font-size: 28px;
+  line-height: 33px;
+}
+
+.infoContainer p,
+li {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+hr {
+  color: #ebe7ff;
+  border: none;
+  background-color: #ebe7ff;
+  height: 2px;
+}
+
+.svgContainerOne {
+  margin: -2px 0 -2px -2px;
+  border-radius: 5px 0 0 5px;
+  background-color: #50caff;
+  width: 133px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.infoContainerOne {
+  margin: auto;
+  width: 335px;
+}
+
+.infoContainerOne h1 {
+  font-size: 28px;
+  line-height: 33px;
+}
+
+.infoContainerOne p,
+li {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.infoContainerOne hr {
+  background-color: #50caff;
+  color: #50caff;
+}
+
+.infoContainerOne li {
+  color: #50caff;
+  margin-bottom: 6px;
+}
+
+.infoContainerOne li p {
+  color: black;
+}
+
+.mainOne {
+  display: flex;
+  width: 540px;
+  border: 2px solid #50caff;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 5px #ebe7ff;
+  border-radius: 5px;
+  height: 183px;
+  margin-left: 20px;
+  margin-top: 15px;
+}

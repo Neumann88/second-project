@@ -1,0 +1,105 @@
+:root {
+  --black: rgb(58, 58, 58);
+  --grey: rgb(205, 205, 205);
+  --white: rgb(240, 240, 240);
+  --red: rgb(206, 36, 36);
+  --light-blue: rgb(102, 193, 255);
+  --font-light: "AirbnbCerealLight", sans-serif;
+  --font-book: "AirbnbCerealBook", sans-serif;
+  --font-black: "AirbnbCerealBlack", sans-serif;
+  color: var(--black);
+  font-family: var(--font-light);
+  font-size: 16px;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+}
+
+.calendar {
+  margin-top: 15px;
+  box-sizing: border-box;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 20px;
+  width: 573px;
+  height: 481px;
+  margin-left: 40px;
+  background-color: #ebe7ff;
+  border-radius: 0 0 5px 5px;
+}
+
+.header {
+  background: #7761ff;
+  height: 57px;
+  border-radius: 5px 5px 0 0;
+  font-size: 14px;
+  line-height: 17px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: capitalize;
+}
+
+.dayNames {
+  display: flex;
+  font-size: 14px;
+}
+
+.body {
+  padding: 10px;
+}
+
+.previous {
+  flex: 1;
+  text-align: right;
+  color: white;
+  padding-right: 45px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.current {
+  color: white;
+}
+.next {
+  cursor: pointer;
+  flex: 1;
+  text-align: left;
+  color: white;
+  padding-left: 45px;
+  font-size: 30px;
+}
+
+.week {
+  margin-top: 10px;
+  background-color: #ebe7ff;
+  width: calc(100% / 7);
+  line-height: 17px;
+  text-align: center;
+  color: var(--black);
+}
+.week div {
+  width: 100%;
+}
+
+.day {
+  display: inline-block;
+  background-color: white;
+  width: 79px;
+  padding: 0;
+  margin: 0;
+}
+
+.day div {
+  width: 79px;
+  height: 63px;
+  color: var(--black);
+  line-height: 32px;
+  padding-left: 10px;
+}
+
+.before {
+  background: #ebe7ff;
+}

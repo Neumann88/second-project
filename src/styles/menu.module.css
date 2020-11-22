@@ -1,0 +1,35 @@
+.menu {
+  display: flex;
+  color: white;
+  background-color: #50caff;
+  justify-content: space-between;
+  height: 55px;
+  align-items: center;
+}
+
+.title {
+  font-size: 28px;
+  line-height: 33px;
+  font-weight: 500;
+  margin-left: 42px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.img {
+  border: 2px solid;
+  border-radius: 50%;
+  border-color: white;
+  padding: 1px;
+  margin-right: 7px;
+  margin-left: 0;
+}
+
+.profile svg {
+  margin-left: 0px;
+  margin-right: 20px;
+}
